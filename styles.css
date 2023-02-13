@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color1: #F2F2F2;
+    --primary-color2: #000000;
+    --primary-color3: #FFFFFF;
+}
+
+body{
+    background-color: var(--primary-color1);
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-color3);
+    height: 140px;
+    color: #111111;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+
+h1{
+    font-weight: 800;
+}
+
+nav a{
+    color: #4F4F4F;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.flex-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.main-img{
+    width: 540px;
+    height: 500px;
+    border-radius: 35px;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    height: 500px;
+    width: 500px;
+    padding-left: 100px;
+}
+
+main h2{
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--primary-color2);
+    padding-bottom: 20px;
+}
+
+main p{
+    color: #4f4f4f;
+    line-height: 24px;
+}
+
+ul{
+    display: flex;
+}
+
+.header-items{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header-items h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.header-items p{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 20px 100px 300px 100px;
+}
+
+.services-item{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.services-item img{
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.img-1{
+    background: #DEECFF; 
+}
+
+.img-2{
+    background: #D7FFE7;
+}
+
+.img-3{
+    background: #FFEEDF;
+}
+
+.services-item h3{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.services-item p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+
+.portfolio-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.container-item{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    margin: 20px 30px;
+}
+
+.container-item img{
+    width: 540px;
+    height: 294px;
+}
+
+.container-item a{
+    text-decoration: none;
+    color: var(--primary-color2);
+    font-weight: 700;
+}
+
+.container-item h4{
+    font-weight: 400;
+    font-size: 12px;
+    color: #828282;
+}
+
+.container-text{
+    padding: 40px;
+}
+
+#project-site{
+    font-weight: 400;
+    font-size: 12px;
+    color: #828282;
+}
+
+.github-section{
+    display: flex;
+    justify-content: center;
+}
+
+.github-btn{
+    background-color: #006DFF;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.github-btn a{
+    text-decoration: none;
+    color: var(--primary-color3);
+}
+
+footer{
+    background-color: var(--primary-color2);
+    height: 400px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h2{
+    color: var(--primary-color3);
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+footer p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #828282;
+    margin-bottom: 20px;
+}
+
+footer button{
+    background-color: #006DFF;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    color: var(--primary-color3);
+    margin-top: 20px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    
+}
+
+footer p a{
+    text-decoration: none;
+    color: #828282;
+}
+
+footer ul li{
+    color: white;
+}
+
