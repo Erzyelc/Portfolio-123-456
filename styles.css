@@ -46,12 +46,12 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1000px;
+    height: 800px;
 }
 
 .main-img{
-    width: 540px;
-    height: 500px;
+    width: 300px;
+    height: 350px;
     border-radius: 35px;
 }
 
@@ -59,21 +59,33 @@ nav a{
     display: flex;
     flex-direction: column;
     align-content: flex-start;
-    height: 500px;
+    height: 350px;
     width: 500px;
     padding-left: 100px;
 }
 
-main h2{
+.main-content h2{
     font-weight: 600;
-    font-size: 32px;
+    font-size: 24px;
     color: var(--primary-color2);
-    padding-bottom: 20px;
+    margin-bottom: 18px;
 }
 
-main p{
+.main-content p{
     color: #4f4f4f;
-    line-height: 24px;
+    line-height: 20px;
+}
+
+.icons-container{
+    display: flex;
+    align-content: center;
+}
+
+.icons-container img{
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+
 }
 
 ul{
@@ -128,13 +140,13 @@ ul{
     padding-top: 20px;
     padding-bottom: 10px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .services-item p{
     font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 16px;
     color: #4F4F4F;
 }
 
@@ -216,7 +228,7 @@ footer h2{
     color: var(--primary-color3);
     font-weight: 600;
     font-size: 30px;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 
 .form-contact{
@@ -230,6 +242,9 @@ footer h2{
 form input,
 form textarea {
     margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
 }
 
 form textarea {
@@ -266,4 +281,3 @@ footer p a{
 footer ul li{
     color: white;
 }
-
